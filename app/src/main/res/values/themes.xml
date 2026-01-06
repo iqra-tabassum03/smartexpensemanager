@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.SmartExpenseManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_on_primary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_on_primary_container</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_on_secondary_container</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_on_tertiary_container</item>
+
+        <!-- Background & surface -->
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_on_surface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_on_surface_variant</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_on_error</item>
+
+        <!-- Custom attributes -->
+        <item name="incomeColor">@color/income_color</item>
+        <item name="expenseColor">@color/expense_color</item>
+        <item name="successColor">@color/success_color</item>
+        <item name="warningColor">@color/warning_color</item>
+        <item name="neutralColor">@color/neutral_color</item>
+    </style>
+
+    <!-- Shape appearances -->
+    <style name="ShapeAppearanceOverlay">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Dialog theme -->
+    <style name="CustomDialogTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+</resources>

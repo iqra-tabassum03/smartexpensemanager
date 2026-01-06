@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Expense state -->
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/expense_color"/>
+            <size android:width="48dp" android:height="48dp"/>
+        </shape>
+    </item>
+
+    <!-- Income (default) -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/income_color"/>
+            <size android:width="48dp" android:height="48dp"/>
+        </shape>
+    </item>
+</selector>

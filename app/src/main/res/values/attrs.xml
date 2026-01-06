@@ -1,0 +1,8 @@
+<resources>
+    <!-- Custom theme attributes for transactions -->
+    <attr name="incomeColor" format="color|reference"/>
+    <attr name="expenseColor" format="color|reference"/>
+    <attr name="successColor" format="color|reference"/>
+    <attr name="warningColor" format="color|reference"/>
+    <attr name="neutralColor" format="color|reference"/>
+</resources>

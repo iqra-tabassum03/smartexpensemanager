@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.smartexpensemanager.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <!--  Action inside Home fragment -->
+        <action
+            android:id="@+id/action_nav_home_to_addTransactionDialogFragment"
+            app:destination="@id/addTransactionDialogFragment" />
+    </fragment>
+
+    <!-- Reports Fragment -->
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.smartexpensemanager.ui.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <!-- Profile Fragment -->
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.smartexpensemanager.ui.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+
+        <!-- Action: Profile → Edit Profile -->
+        <action
+            android:id="@+id/action_nav_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <!-- Edit Profile Fragment -->
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.smartexpensemanager.ui.EditProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_edit_profile" />
+
+
+
+    <!-- Add Transaction Dialog Fragment -->
+    <fragment
+        android:id="@+id/addTransactionDialogFragment"
+        android:name="com.example.smartexpensemanager.ui.AddTransactionDialogFragment"
+        android:label="Add Transaction"
+        tools:layout="@layout/dialog_add_transaction" />
+</navigation>

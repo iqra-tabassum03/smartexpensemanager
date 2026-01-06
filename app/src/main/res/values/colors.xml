@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Primary brand colors -->
+    <color name="md_theme_primary">#258f8f</color>
+    <color name="md_theme_on_primary">#000000</color>
+    <color name="md_theme_primary_container">#258f8f</color>
+    <color name="md_theme_on_primary_container">#00332C</color>
+
+    <!-- Secondary brand colors -->
+    <color name="md_theme_secondary">#FFC107</color>
+    <color name="md_theme_on_secondary">#000000</color>
+    <color name="md_theme_secondary_container">#FFE082</color>
+    <color name="md_theme_on_secondary_container">#3E2723</color>
+
+    <!-- Tertiary -->
+    <color name="md_theme_tertiary">#7D5260</color>
+    <color name="md_theme_on_tertiary">#FFFFFF</color>
+    <color name="md_theme_tertiary_container">#FFDDE1</color>
+    <color name="md_theme_on_tertiary_container">#31111D</color>
+
+    <!-- Background & surface (light) -->
+    <color name="md_theme_background">#FFFFFF</color>
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_on_surface">#1E1E1E</color>
+    <color name="md_theme_surface_variant">#E0E0E0</color>
+    <color name="md_theme_on_surface_variant">#49454F</color>
+
+    <!-- Error -->
+    <color name="md_theme_error">#B00020</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
+
+    <!-- Custom transaction colors -->
+    <color name="expense_color">#D32F2F</color> <!-- Red -->
+    <color name="income_color">#388E3C</color> <!-- Green -->
+
+    <color name="md_theme_dark_on_primary">#E6E6E6</color>
+
+
+    <!-- Extra semantic colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FFC107</color>
+    <color name="neutral_color">#9E9E9E</color>
+    <color name="divider_color">#DDDDDD</color>
+    <color name="overlay_color">#33000000</color> <!-- 20% black -->
+</resources>

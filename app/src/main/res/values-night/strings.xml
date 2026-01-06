@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Smart Expense Manager</string>
+
+    <!-- Navigation Titles -->
+    <string name="nav_title_home">Home</string>
+    <string name="nav_title_reports">Reports</string>
+    <string name="nav_title_profile">Profile</string>
+
+    <!-- Profile and Generic Strings -->
+    <string name="transaction_icon">Transaction Icon</string>
+    <string name="app_version_placeholder">Version 1.0.0</string>
+    <string name="dark_mode_switch">Dark Mode</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_app">About App</string>
+    <string name="app_settings">Settings</string>
+
+    <!-- ProfileFragment Specific -->
+    <string name="profile_picture_desc">User Profile Picture</string>
+    <string name="profile_default_name">Guest User</string>
+    <string name="profile_default_email">user@example.com</string>
+    <string name="profile_account_settings">Account Settings</string>
+    <string name="profile_edit_info">Edit Profile Information</string>
+    <string name="profile_change_password">Change Password</string>
+    <string name="profile_general_settings">General</string>
+    <string name="profile_dark_mode_desc">Dark Mode Icon</string>
+    <string name="profile_dark_mode">Dark Theme</string>
+    <string name="profile_about_app">About Smart Expense Manager</string>
+    <string name="profile_logout">Logout</string>
+
+    <!-- Home Fragment -->
+    <string name="current_balance_label">Current Balance</string>
+    <string name="recent_transactions_header">Recent Transactions</string>
+    <string name="empty_transactions_placeholder">No transactions yet</string>
+    <string name="expense_label">Expense</string>
+    <string name="income_label">Income</string>
+
+    <!-- Add Transaction Screen -->
+    <string name="add_transaction_title">Add New Transaction</string>
+    <string name="edit_transaction_title">Edit Transaction</string>
+    <string name="hint_transaction_title">Title (e.g., Salary, Coffee, Rent)</string>
+    <string name="hint_amount">Amount (Rs)</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_date">Date</string>
+    <string name="label_type">Transaction Type</string>
+    <string name="type_income">Income</string>
+    <string name="type_expense">Expense</string>
+    <string name="label_category">Category</string>
+    <string name="category_default">General</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="hint_name">Enter name</string>
+    <string name="hint_email">Enter email</string>
+    <string name="save_profile">Save Profile</string>
+
+    <!-- Validation and Success -->
+    <string name="error_empty_field">This field cannot be empty</string>
+    <string name="error_invalid_amount">Please enter a valid amount greater than zero.</string>
+    <string name="error_select_category">Please select a category.</string>
+    <string name="transaction_saved_success">Transaction successfully recorded!</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_description_add_transaction">Add New Transaction</string>
+    <string name="cd_category_icon">Transaction Category Icon</string>
+
+    <!-- Currency Formatting -->
+    <string name="currency_format_positive">+%Rs</string>
+    <string name="currency_format_negative">-%Rs</string>
+
+    <!-- Reports Fragment -->
+    <string name="report_title">Reports &amp; Analysis</string>
+    <string name="report_filter_time_period">Select Time Period</string>
+    <string name="report_placeholder_chart">Chart will appear here</string>
+    <string name="report_insights_title">Spending Insights</string>
+    <string name="report_insights_summary">Summary of your spending patterns</string>
+    <string name="report_chart_title">Spending Breakdown</string>
+
+    <!-- Dialog Add Transaction -->
+    <string name="dialog_title_add_transaction">Add Transaction</string>
+    <string name="transaction_type_expense">Expense</string>
+    <string name="transaction_type_income">Income</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <!-- Accessibility description for delete button -->
+    <string name="cd_delete_transaction">Delete transaction</string>
+
+    <!-- FAB content description -->
+    <string name="add_transaction">Add Transaction</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_dialog_title">Confirm Deletion</string>
+    <string name="delete_dialog_message">Are you sure you want to delete the transaction: %Rs?</string>
+    <string name="delete_dialog_cancel">Cancel</string>
+    <string name="delete_dialog_confirm">Delete</string>
+
+    <!-- Category Arrays -->
+    <string-array name="expense_categories">
+        <item>Food &amp; Dining</item>
+        <item>Shopping</item>
+        <item>Transportation</item>
+        <item>Housing</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Salary</item>
+        <item>Investment</item>
+        <item>Gift</item>
+        <item>Refund</item>
+        <item>Other Income</item>
+    </string-array>
+
+    <!-- Report Periods Array -->
+    <string-array name="report_periods">
+        <item>Last 7 Days</item>
+        <item>Last 30 Days</item>
+        <item>This Month</item>
+        <item>Last Month</item>
+        <item>This Year</item>
+        <item>All Time</item>
+    </string-array>
+</resources>
